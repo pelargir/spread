@@ -1,0 +1,9 @@
+<%= flash[:error] %>
+<% form_tag do -%>
+  <%= hidden_field_tag :url, params[:url] %>
+  <%= label_tag :email %>
+  <%= text_field_tag :email %>
+  <br/>
+  <%= submit_tag "Share" %> or
+  <%= link_to "cancel", params[:url] %>
+<% end -%>
