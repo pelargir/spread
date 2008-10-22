@@ -2,6 +2,7 @@
 
 Makes it easy to add tell-a-friend functionality to any Rails app.
 
+
 == Installation
 
 Install the gem directly:
@@ -16,6 +17,23 @@ Or install the gem in your Rails project as a plugin:
 Or clone the project:
 
   git clone git://github.com/pelargir/spread.git
+
+
+== Usage
+
+Use spread's view helper to embed a link on the page you want to share:
+
+  <%= spread :something %>
+
+Let your controller know you're using spread:
+
+  class SomeController < ActionController::Base
+    spread :something
+  end
+
+That's all there is to it! (Spread's templates are currently static.
+I'm working on making them overrideable so expect that soon.)
+
 
 == Resources
 
