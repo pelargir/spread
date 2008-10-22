@@ -1,8 +1,8 @@
 module Spread
   class Mailer < ActionMailer::Base
-    def spread(email)
+    def spread(email, url)
       recipients email
-      body :url => "http://foo.com"
+      body :url => url
     end
   end
 end
