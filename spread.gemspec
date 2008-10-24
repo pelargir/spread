@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/pelargir/spread"
   s.description = "Makes it easy to add tell-a-friend functionality to any Rails app."
   s.has_rdoc = true
-  s.authors  = ["Matthew Bass"]
+  s.authors  = ["Matthew Bass", "Terralien"]
   s.files    = [
     "CHANGELOG",
     "files/public/images/spread/email.png",
