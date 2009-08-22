@@ -10,15 +10,20 @@ Gem::Specification.new do |s|
   s.authors  = ["Matthew Bass"]
   s.files    = [
     "CHANGELOG",
+    "deleted_files",
     "files/public/images/spread/email.png",
     "init.rb",
     "install.rb",
 		"lib/spread.rb",
+		"lib/spread/asset_copier.rb",
+		"lib/spread/controller.rb",
     "MIT-LICENSE",
     "Rakefile",
 		"README",
 		"spread.gemspec",
-		"tasks/spread.rake"
+		"tasks/asset_copier.rake",
+		"templates/email.html.erb",
+		"templates/form.html.erb"
 		]
   s.rdoc_options = ["--main", "README"]
   s.extra_rdoc_files = ["README"]
